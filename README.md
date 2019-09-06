@@ -53,6 +53,11 @@ Basicamente o Front envia somente uma requisição para o backend, mantendo a co
 
 # Mão no código!
 Agora que ja temos uma breve introdução de micro serviços e socket vamos começar a codar!
+## O projeto 
+    O projeto que iremos criar não necessariamente se encaixa como um micro serviço, mas chegaremos próximo disso.
+    Criaremos duas APIs com linguagens diferentes e servidores diferentes para trabalherem juntas. 
+    O laravel será o responsável pela regra de negócio e interação com o banco. Vamos utilizar o nodejs como um serviço de socket, ele será responsável por 
+    emitir os dados que o larável irá enviar para os clientes conectados.  
 
 ## To do list
 
@@ -60,7 +65,7 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
     - [x] Iniciar um projeto: `npm init`
     - [x] Instalar o express: `npm install express`
     - [x] Instalar o socketio: `npm install socketio` 
-    - [x] Adicionar um `API_KEY` para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
+    - [x] Adicionar um `API_KEY` para uma middleware específica (O correto é a chave da api está em um arquivo .env)
     - [x] Iniciar o servidor na porta `3000`
     - [x] Iniciar o socket.io
     - [x] Adicionar rota para receber a notificação e emitir com socket
