@@ -22,16 +22,16 @@
 
 #### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
 
-![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/imgs/monolithic-vs-microservices.png)
+![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/monolithic-vs-microservices.png)
 - https://www.redhat.com/en/topics/microservices/what-are-microservices        
 
 
-- **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"**: 
-    - https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
-- **"Microserviços – Hipsters #17"** : 
-    - https://hipsters.tech/microservicos-hipsters-17/
-- **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** : 
-    - https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
+### **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"**: 
+    https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
+### **"Microserviços – Hipsters #17"** : 
+    https://hipsters.tech/microservicos-hipsters-17/
+### **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** : 
+    https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
 
 
 # Short Polling & Long Polling
@@ -39,7 +39,7 @@
 ### Short Polling
 É a definição para quando o frontend envia mutliplas requisições para o backend com intuito de checar se há uma resposta/atualização, sendo assim diminuindo a performance eo desempenho tanto no client-side ( que requer um processamento contínuo para o envio das requisições ) quanto no server-side ( gera uma ).
 
-![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/imgs/tumblr_lf4hqepXRe1qg976ro1_500.jpg)
+![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/tumblr_lf4hqepXRe1qg976ro1_500.jpg)
 
 
 ### Long Polling 
