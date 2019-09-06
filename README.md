@@ -23,7 +23,7 @@
 #### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/monolithic-vs-microservices.png)
-- https://www.redhat.com/en/topics/microservices/what-are-microservices        
+https://www.redhat.com/en/topics/microservices/what-are-microservices        
 
 
 - **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"** : https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
@@ -50,6 +50,31 @@ Basicamente o Front envia somente uma requisição para o backend, mantendo a co
 "O WebSocket é um protocolo padrão para transferência de dados bidirecional entre um cliente e um servidor.O protocolo webSocket é construído em TCP, não executando em protocolo HTTP.O uso da pesquisa HTTP é extremamente desvantajoso, pois desperdiça recursos e pode causar o tempo limite da conexão." 
 - https://dev.to/moz5691/websocket-vs-long-polling-http-412f
 
+
+# Mão no código!
+Agora que ja temos uma breve introdução de micro serviços e socket vamos começar a codar!
+
+## To do list
+- [] Criar o servidor node
+    - [] Iniciar um projeto com npm init
+    - [] Instalar o express
+    - [] Instalar o socketio
+    - [] Adicionar um API_KEY para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
+        const APP_KEY = 'c32d1e78f101470dbcaa4c5e001283509881f3ba4a544521a8c1116ed0a432e2d444c0fc24814b2396d7fd4f9a7cea88'
+        app.use( (req, res, next ) => {
+            const params = req.body;
+            if( params.app_key != app_key ) throw Error('API KEY INVALiD');
+            return next();
+        });
+
+    - [] Iniciar o servidor na porta 3000
+        const server = app.listen(3000 , () => {
+            console.log('Servidor iniciado na porta 3000');
+        });
+
+
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 
 
