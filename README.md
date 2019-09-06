@@ -27,11 +27,11 @@
 
 
 **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"**
--https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
+- https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
 **"Microserviços – Hipsters #17"**
--https://hipsters.tech/microservicos-hipsters-17/
+- https://hipsters.tech/microservicos-hipsters-17/
 **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"**
--https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
+- https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
 
 
 # Short Polling & Long Polling
