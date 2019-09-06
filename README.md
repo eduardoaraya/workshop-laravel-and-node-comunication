@@ -65,6 +65,9 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
     - [x] Iniciar o socket.io
     - [x] Adicionar rota para receber a notificação e emitir com socket
 
+![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/server_node.png)
+
+
 - [x] Criar um  projeto com laravel
     - [x] Iniciar um projeto `composer create-project laravel/laravel new-project`
     - [x] Criar uma rota para a view/blade
