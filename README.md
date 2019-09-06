@@ -56,7 +56,7 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
 
 ## To do list
 
-- [x] Criar o servidor node
+- [x] Criar o servidor nodejs
     - [x] Iniciar um projeto com npm init
     - [x] Instalar o express
     - [x] Instalar o socketio
@@ -73,6 +73,8 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
     - [x] Criar um Listener com "php artisan make:listener NotificationListner"
     - [x] Criar uma rota e controller para enviar a notificação
 
+I think you should use an
+`<addr>` element here instead.
 
 
 
