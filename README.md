@@ -55,24 +55,29 @@ Basicamente o Front envia somente uma requisição para o backend, mantendo a co
 Agora que ja temos uma breve introdução de micro serviços e socket vamos começar a codar!
 
 ## To do list
-- [ ] Criar o servidor node
-    - [ ] Iniciar um projeto com npm init
-    - [ ] Instalar o express
-    - [ ] Instalar o socketio
-    - [ ] Adicionar um API_KEY para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
-    - [ ] Iniciar o servidor na porta 3000
 
-        const APP_KEY = 'c32d1e78f101470dbcaa4c5e001283509881f3ba4a544521a8c1116ed0a432e2d444c0fc24814b2396d7fd4f9a7cea88'
-        app.use( (req, res, next ) => {
-            const params = req.body;
-            if( params.app_key != app_key ) throw Error('API KEY INVALiD');
-            return next();
-        });
+- [x] Criar o servidor node
+    - [x] Iniciar um projeto com npm init
+    - [x] Instalar o express
+    - [x] Instalar o socketio
+    - [x] Adicionar um API_KEY para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
+    - [x] Iniciar o servidor na porta "3000"
+    - [x] Iniciar o socket.io
+    - [x] Adicionar rota para receber a notificação e emitir com socket
 
-        const server = app.listen(3000 , () => {
-            console.log('Servidor iniciado na porta 3000');
-        });
+- [x] Criar um  projeto com laravel
+    - [x] Iniciar um projeto "composer create-project laravel/laravel new-project"
+    - [x] Criar uma rota para a view/blade
+    - [x] Adicionar o socket.io client na blade 
+    - [x] Criar um evento com "php artisan make:event NotificationEvent"
+    - [x] Criar um Listener com "php artisan make:listener NotificationListner"
+    - [x] Criar uma rota e controller para enviar a notificação
 
+
+
+
+
+     
 
 
 
