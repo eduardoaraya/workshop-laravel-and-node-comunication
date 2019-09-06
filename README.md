@@ -57,24 +57,23 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
 ## To do list
 
 - [x] Criar o servidor nodejs
-    - [x] Iniciar um projeto com npm init
-    - [x] Instalar o express
-    - [x] Instalar o socketio
-    - [x] Adicionar um API_KEY para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
-    - [x] Iniciar o servidor na porta "3000"
+    - [x] Iniciar um projeto: `npm init`
+    - [x] Instalar o express: `npm install express`
+    - [x] Instalar o socketio: `npm install socketio` 
+    - [x] Adicionar um `API_KEY` para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
+    - [x] Iniciar o servidor na porta `3000`
     - [x] Iniciar o socket.io
     - [x] Adicionar rota para receber a notificação e emitir com socket
 
 - [x] Criar um  projeto com laravel
-    - [x] Iniciar um projeto "composer create-project laravel/laravel new-project"
+    - [x] Iniciar um projeto `composer create-project laravel/laravel new-project`
     - [x] Criar uma rota para a view/blade
     - [x] Adicionar o socket.io client na blade 
-    - [x] Criar um evento com "php artisan make:event NotificationEvent"
-    - [x] Criar um Listener com "php artisan make:listener NotificationListner"
+    - [x] Criar um evento com `php artisan make:event NotificationEvent`
+    - [x] Criar um Listener com `php artisan make:listener NotificationListner`
     - [x] Criar uma rota e controller para enviar a notificação
 
-I think you should use an
-`<addr>` element here instead.
+
 
 
 
