@@ -34,7 +34,7 @@
 # Short Polling & Long Polling
 
 ### Short Polling
-É a definição para quando o frontend envia mutliplas requisições para o backend com intuito de checar se há uma resposta/atualização, sendo assim diminuindo a performance eo desempenho tanto no client-side ( que requer um processamento contínuo para o envio das requisições ) quanto no server-side ( gera uma ).
+É a definição para quando o frontend envia mutliplas requisições para o backend com intuito de checar se há uma resposta/atualização, sendo assim diminuindo a performance eo desempenho tanto no client-side (requer um processamento contínuo para o envio das requisições) quanto no server-side (sobrecarga no servidor).
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/tumblr_lf4hqepXRe1qg976ro1_500.jpg)
 
