@@ -60,6 +60,7 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
     - [ ] Instalar o express
     - [ ] Instalar o socketio
     - [ ] Adicionar um API_KEY para uma middleware específica (O correto é esta chave de api está em um arquivo .env)
+    - [ ] Iniciar o servidor na porta 3000
 
 "const APP_KEY = 'c32d1e78f101470dbcaa4c5e001283509881f3ba4a544521a8c1116ed0a432e2d444c0fc24814b2396d7fd4f9a7cea88'
 app.use( (req, res, next ) => {
@@ -68,7 +69,6 @@ app.use( (req, res, next ) => {
     return next();
 });"
 
-    - [ ] Iniciar o servidor na porta 3000
 "const server = app.listen(3000 , () => {
     console.log('Servidor iniciado na porta 3000');
 });"
