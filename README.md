@@ -81,8 +81,15 @@ receber os dados do Laravel e emiti-los para o client-side.
     - [x] Criar um evento `php artisan make:event NotificationEvent`
     - [x] Criar um Listener `php artisan make:listener NotificationListener`
     - [x] Registrar o evento eo Listener ao arquivo `EventServiceProvider.php`
+    - [x] Adicionar a `API_KEY` ao Laravel
+
 
 - [ ] Deploy
+
+
+### Os repositórios dos servidores encontram-se em: 
+>https://github.com/eduardoaraya/workshop-laravel-project
+>https://github.com/eduardoaraya/workshop-node-socket
 
 
 
