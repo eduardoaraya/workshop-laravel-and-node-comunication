@@ -20,11 +20,11 @@
 - O desenvolvimento pode se tornar complicado a medida que a aplicação cresce
 - Dependendo do projeto não requer uma equipe muito grande para o desenvolvimento.
 
-![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/monolithic-vs-microservices.png)
-        
-#### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para ambas arquiteturas.
+#### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/monolithic-vs-microservices.png)
+        
+
 
 - **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"**: https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
 - **"Microserviços – Hipsters #17"** : https://hipsters.tech/microservicos-hipsters-17/
