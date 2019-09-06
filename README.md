@@ -26,9 +26,12 @@ Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Beha
 > https://www.redhat.com/en/topics/microservices/what-are-microservices        
 
 
-**"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"** : https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
-**"Microserviços – Hipsters #17"** : https://hipsters.tech/microservicos-hipsters-17/
-**"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
+- **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"** : 
+ - https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
+- **"Microserviços – Hipsters #17"** :
+ - https://hipsters.tech/microservicos-hipsters-17/
+- **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** 
+ - https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
 
 
 # Short Polling & Long Polling
@@ -87,9 +90,8 @@ receber os dados do Laravel e emiti-los para o client-side.
 - [ ] Deploy
 
 
-### Os repositórios dos servidores encontram-se em: 
->https://github.com/eduardoaraya/workshop-laravel-project
->https://github.com/eduardoaraya/workshop-node-socket
+- >https://github.com/eduardoaraya/workshop-laravel-project
+- >https://github.com/eduardoaraya/workshop-node-socket
 
 
 
