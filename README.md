@@ -56,8 +56,8 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
 ## O projeto 
 O projeto que iremos criar não necessariamente se encaixa como um micro serviço, mas chegaremos próximo disso.
 Criaremos duas APIs com linguagens diferentes e servidores diferentes para trabalherem juntas. 
-O laravel será o responsável pela regra de negócio e interação com o banco. Vamos utilizar o nodejs como um serviço de socket, ele será responsável por 
-emitir os dados que o larável irá enviar para os clientes conectados.  
+O Laravel será o responsável pela regra de negócio e interação com o banco. Vamos utilizar o Nodejs como um serviço de socket, ele será responsável por 
+receber os dados do Laravel e emiti-los para os clientes conectados.  
 
 ## To do list
 
