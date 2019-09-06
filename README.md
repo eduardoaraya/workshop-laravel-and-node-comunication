@@ -20,7 +20,7 @@
 - O desenvolvimento pode se tornar complicado a medida que a aplicação cresce
 - Dependendo do projeto não requer uma equipe muito grande para o desenvolvimento.
 
-#### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
+Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/monolithic-vs-microservices.png)
 > https://www.redhat.com/en/topics/microservices/what-are-microservices        
@@ -57,7 +57,7 @@ Agora que ja temos uma breve introdução de micro serviços e socket vamos come
 O projeto que iremos criar não necessariamente se encaixa como um micro serviço, mas chegaremos próximo disso.
 Criaremos duas APIs com linguagens diferentes e servidores diferentes para trabalherem juntas. 
 O Laravel será o responsável pela regra de negócio e interação com o banco. Vamos utilizar o Nodejs como um serviço de socket, ele será responsável por 
-receber os dados do Laravel e emiti-los para os clientes conectados.  
+receber os dados do Laravel e emiti-los para o client-side.  
 
 ## To do list
 
@@ -72,14 +72,20 @@ receber os dados do Laravel e emiti-los para os clientes conectados.
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/server_node.PNG)
 
-
 - [x] Criar um  projeto com laravel
     - [x] Iniciar um projeto `composer create-project laravel/laravel new-project`
-    - [x] Criar uma rota para a view/blade
-    - [x] Adicionar o socket.io client na blade 
-    - [x] Criar um evento com `php artisan make:event NotificationEvent`
-    - [x] Criar um Listener com `php artisan make:listener NotificationListner`
-    - [x] Criar uma rota e controller para enviar a notificação
+    - [x] Criar um controller `php artisan make:controller NotificationController`
+    - [x] Criar uma rota para a view com o front adequando para receber e enviar as notificações
+    - [x] Adicionar o socket.io client na blade
+    - [x] Adicionar o JQuery na blade
+    - [x] Criar um evento `php artisan make:event NotificationEvent`
+    - [x] Criar um Listener `php artisan make:listener NotificationListener`
+    - [x] Registrar o evento eo Listener ao arquivo `EventServiceProvider.php`
+
+- [ ] Deploy
+
+
+
 
 
 
