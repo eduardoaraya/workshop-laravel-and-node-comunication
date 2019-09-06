@@ -23,12 +23,15 @@
 #### Existem padrões de desenvolvimento como DDD (Domain Driven Design), (BDD) (Behavior-driven Design) e TDD (Test-driven Development) para facilitar o desenvolvimento de ambas arquiteturas.
 
 ![alt text](https://github.com/eduardoaraya/laravel-and-node-comunication/blob/master/imgs/monolithic-vs-microservices.png)
-https://www.redhat.com/en/topics/microservices/what-are-microservices        
+> https://www.redhat.com/en/topics/microservices/what-are-microservices        
 
 
-- **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"** : https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
-- **"Microserviços – Hipsters #17"** : https://hipsters.tech/microservicos-hipsters-17/
-- **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
+- **"Dicas para refatorar um monolito em microserviços - LUIZ FERNANDO DUARTE JUNIOR"** : 
+>https://imasters.com.br/apis-microsservicos/dicas-para-refatorar-um-monolito-em-microsservicos
+- **"Microserviços – Hipsters #17"** : 
+>https://hipsters.tech/microservicos-hipsters-17/
+- **"Microsserviços autônomos na Usabilla – Hipsters On The Road #10"** 
+>https://hipsters.tech/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10/
 
 
 # Short Polling & Long Polling
@@ -44,11 +47,11 @@ Basicamente o Front envia somente uma requisição para o backend, mantendo a co
     
 # SSE 
 "O SSE é um mecanismo que permite ao servidor enviar os dados de forma assíncrona para o cliente assim que a conexão cliente-servidor for estabelecida. O servidor pode então decidir enviar dados sempre que um novo "pedaço" de dados estiver disponível. Pode ser considerado como um modelo de publicação / assinatura unidirecional."
-- https://codeburst.io/polling-vs-sse-vs-websocket-how-to-choose-the-right-one-1859e4e13bd9
+> https://codeburst.io/polling-vs-sse-vs-websocket-how-to-choose-the-right-one-1859e4e13bd9
 
 # WebSocket
 "O WebSocket é um protocolo padrão para transferência de dados bidirecional entre um cliente e um servidor.O protocolo webSocket é construído em TCP, não executando em protocolo HTTP.O uso da pesquisa HTTP é extremamente desvantajoso, pois desperdiça recursos e pode causar o tempo limite da conexão." 
-- https://dev.to/moz5691/websocket-vs-long-polling-http-412f
+> https://dev.to/moz5691/websocket-vs-long-polling-http-412f
 
 
 # Mão no código!
@@ -74,8 +77,6 @@ app.use( (req, res, next ) => {
 });"
 
 
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
 
 
 
